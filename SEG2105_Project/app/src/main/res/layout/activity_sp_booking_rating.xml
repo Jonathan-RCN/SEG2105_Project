@@ -9,32 +9,27 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/CompanyName"
+            android:id="@+id/textview1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="My Bookings" />
 
         <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Ratings" />
+
+        <ListView
+            android:id="@+id/list2"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
